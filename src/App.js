@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import About from './components/About'
+import Contact from './components/Contact'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import { useState } from 'react'
@@ -55,6 +56,7 @@ const App = () => {
       <Header />
       <About />
       <About />
+      <Contact />
     </div>
   )
 }
