@@ -1,6 +1,6 @@
 const SkillButton = ({ text, link }) => {
   return (
-    <button className='exp-btn'> {text} </button>
+      <button className='exp-btn'> {text} </button>
   )
 }
 

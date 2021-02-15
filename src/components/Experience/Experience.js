@@ -3,13 +3,19 @@ import { FaChevronDown } from 'react-icons/fa'
 
 const Experience = () => {
   return (
+  <div>
     <div className='exp'>
-      <p>Experience</p>
-      <Skill name='Languages' />
-      <Skill name='Environments' />
-      <Skill name='Applications' />
-      <FaChevronDown className='downArrow' />
+      <div className='exp-block'>
+      <p align='center'>Experience</p>
+        <table>
+          <tr><Skill name='Languages'/></tr>
+          <tr><Skill name='Environments'/></tr>
+          <tr><Skill name='Applications'/></tr>
+        </table>
+      </div>
     </div>
+  <FaChevronDown className='downArrow' align='center'/>
+  </div>
   )
 }
 
