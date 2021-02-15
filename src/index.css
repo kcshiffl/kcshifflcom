@@ -32,6 +32,7 @@ body {
   padding: 30px;
   border-radius: 5px;
   font-size: 30px;
+  color: white;
 }
 
 /** Breaking out of flex **/
@@ -171,6 +172,42 @@ body {
   font-size: 18px;
 }
 
+/*** Experience ***/
+
+.exp {
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  font-family: 'Courier New', monospace;
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+
+.exp-block {
+  margin: 2% 15%;
+  justify-content: center;
+  display: flex;
+}
+
+.exp-skills {
+  transition: color 0.3s linear;
+  color: white;
+  margin: 5% 5%;
+}
+
+.exp-skills:hover {
+  color: #dab4d2;
+  cursor:pointer;
+}
+
+
 /*** Contact ***/
 
 .contact {
@@ -189,6 +226,8 @@ body {
 
 .form-control {
   margin: 20px 0;
+  transition: color 0.3s linear;
+  font-weight: normal;
 }
 
 .form-control label {
