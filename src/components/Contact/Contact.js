@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from '../General/Button'
 const Contact = () => {
   return (
     <div className='contact'>

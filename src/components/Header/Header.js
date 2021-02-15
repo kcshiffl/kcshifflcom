@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Button from './Button'
+import Button from '../General/Button'
 import HeaderLink from './HeaderLink'
 const Header = () => {
   return(

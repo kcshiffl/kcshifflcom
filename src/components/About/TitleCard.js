@@ -1,4 +1,4 @@
-import logo from './images/Me_Icon.png';
+import logo from '../images/Me_Icon.png';
 
 const TitleCard = () => {
   return (
