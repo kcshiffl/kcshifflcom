@@ -40,14 +40,20 @@ body {
 .downArrow {
   /* To center... */
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
+  bottom: 2.5%;
+  min-width: 100%;
+  position: fixed;
   color: white;
-  animation: bounce 0.5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
+  animation: bounce 0.9s infinite;
+}
+
+@keyframes bounce {
+  10% {
+    bottom: 2.5%;
+  }
+  50% {
+    bottom: 3.5%;
+  }
 }
 
 .downArrow:hover {
@@ -189,7 +195,6 @@ body {
 
 .exp-block {
   padding: 30px;
-
   min-width: 30%;
   min-height: 30%;
 
@@ -204,7 +209,26 @@ body {
   background: none;
   transition: 0.3s;
   text-align: left;
-  color: #dab4d2;
+
+  /* border: 1px solid #dab4d2; */
+
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin: 0px 0px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: inherit;
+  color: #857883;
+}
+
+.exp-btn-highlight {
+  width: 100%;
+  background: none;
+  transition: 0.3s;
+  text-align: left;
+  outline: none;
 
   /* border: 1px solid #dab4d2; */
 
@@ -215,12 +239,21 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-family: inherit;
+
+
+  color: #ef5ae7;
+  background-color: #1b1a29;
+  opacity: 1;
 }
 
 .exp-btn:hover {
   color: #ffe4f9;
   background-color: #2f2e3c;
   opacity: 1;
+}
+
+.exp-btn:focus {
+  outline: none;
 }
 
 .exp-btn-block {
@@ -231,7 +264,14 @@ body {
 }
 
 .exp-scrollbar {
-  background-color: white;
+  background-color: #dab3d2;
+  opacity: 0;
+  padding: 1px;
+  transition: 0.3s;
+}
+
+.exp-scrollbar-highlight {
+  background-color: #dab3d2;
   opacity: 1;
   padding: 1px;
   transition: 0.3s;

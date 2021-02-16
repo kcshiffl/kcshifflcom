@@ -1,6 +1,5 @@
 import TitleCard from './TitleCard'
 import AboutMe from './AboutMe'
-import { FaChevronDown } from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -9,7 +8,6 @@ const About = () => {
       <TitleCard />
       <AboutMe />
       </div>
-      <FaChevronDown className='downArrow' />
     </div>
   )
 }

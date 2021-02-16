@@ -1,20 +1,37 @@
 import Skill from './Skill'
-import { FaChevronDown } from 'react-icons/fa'
 
-const Experience = () => {
+/**
+<Skill rowNum='1'
+  name='Languages'
+  skillRowNum={skillRowNum}
+/>
+<Skill rowNum='2'
+  name='Environments'
+  skillRowNum={skillRowNum}
+/>
+<Skill rowNum='3'
+  name='Applications'
+  skillRowNum={skillRowNum}
+/>
+**/
+
+const Experience = ( {skills, toggleSkills} ) => {
+
+
   return (
   <div>
     <div className='exp'>
       <div className='exp-block'>
-      <p align='center'>Experience</p>
-        <table>
-          <tr><Skill name='Languages'/></tr>
-          <tr><Skill name='Environments'/></tr>
-          <tr><Skill name='Applications'/></tr>
-        </table>
+        {skills.map((skill, index) => (
+          <Skill rowNum={index} skill={skill} toggleSkills={toggleSkills} />
+        ))}
       </div>
+
+      <div className='exp-block' style={{ width: '100%' }}>
+      <p> put stuff here </p>
+      </div>
+
     </div>
-  <FaChevronDown className='downArrow' align='center'/>
   </div>
   )
 }
