@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 
-const Button = ({ text, link }) => {
+const Button = ({ text, link, newTab }) => {
+
   return (
-    <button className='btn'> {text} </button>
+    <a href={link} target={newTab=='true' ? '_blank' : '_self'}><button className='btn'>{text}</button></a>
   )
 }
 

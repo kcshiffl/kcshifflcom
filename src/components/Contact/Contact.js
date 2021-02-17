@@ -1,4 +1,6 @@
 import Button from '../General/Button'
+import TextareaAutosize from 'react-textarea-autosize';
+
 const Contact = () => {
   return (
     <div className='contact'>
@@ -9,20 +11,20 @@ const Contact = () => {
         <div className='add-form'>
           <div className='form-control' req>
             <label>Name*</label>
-            <input type = 'text'/>
+            <textarea id='textInput'></textarea>
           </div>
 
           <div className='form-control' req>
             <label>Email*</label>
-            <input type = 'text'/>
+            <textarea id='textInput' > </textarea>
           </div>
 
           <div className='form-control'>
             <label>Message</label>
-            <input type = 'text'/>
+            <textarea id='textInput-adjustable' style={{ height: '200px' }}> </textarea>
           </div>
 
-          <Button text='Submit' align='center'/>
+          <Button text='Submit' align='center' link='#contact' newTab='false'/>
         </div>
       </form>
     </div>

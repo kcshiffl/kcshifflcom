@@ -1,6 +1,6 @@
-const SkillButton = ({ text, link, highlighted }) => {
+const SkillButton = ({ text, link, highlighted, open }) => {
   return (
-      <button className={highlighted ? 'exp-btn-highlight' : 'exp-btn'}> {text} </button>
+      <button className={highlighted || open ? 'exp-btn-highlight' : 'exp-btn'}> {text} </button>
   )
 }
 

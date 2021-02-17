@@ -1,21 +1,7 @@
 import Skill from './Skill'
+import SkillList from './SkillList'
 
-/**
-<Skill rowNum='1'
-  name='Languages'
-  skillRowNum={skillRowNum}
-/>
-<Skill rowNum='2'
-  name='Environments'
-  skillRowNum={skillRowNum}
-/>
-<Skill rowNum='3'
-  name='Applications'
-  skillRowNum={skillRowNum}
-/>
-**/
-
-const Experience = ( {skills, toggleSkills} ) => {
+const Experience = ( {skills, toggleHighlight, toggleOpen, toggleClose} ) => {
 
 
   return (
@@ -23,12 +9,12 @@ const Experience = ( {skills, toggleSkills} ) => {
     <div className='exp'>
       <div className='exp-block'>
         {skills.map((skill, index) => (
-          <Skill rowNum={index} skill={skill} toggleSkills={toggleSkills} />
+          <Skill rowNum={index} skill={skill} toggleHighlight={toggleHighlight} toggleOpen={toggleOpen} toggleClose={toggleClose}/>
         ))}
       </div>
 
       <div className='exp-block' style={{ width: '100%' }}>
-      <p> put stuff here </p>
+        <SkillList skills={skills}/>
       </div>
 
     </div>
