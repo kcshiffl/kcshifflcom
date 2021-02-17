@@ -59,20 +59,22 @@ const App = () => {
 
   return (
     <div className='App'>
+      <div class='email-overlay'>kcshiffl@gmail.com</div>
+
       <Header />
       <div id='about'></div>
       <About />
 
       <div id='experience' style={{ paddingTop: '7%' }}></div>
-      <div class='titles'>Experience</div><div class='line'></div>
+      <div class='titles' style={{paddingLeft: '32%'}}>Experience</div><div class='line'></div>
       <Experience skills={skills} toggleHighlight={toggleHighlight} toggleOpen={toggleOpen} toggleClose={toggleClose} />
 
       <div id='work' style={{ paddingTop: '7%' }}></div>
-      <div class='titles'>Work</div>
+      <div class='titles' style={{paddingLeft: '22%'}}>Work</div>
       <Work />
 
       <div id='contact' style={{ paddingTop: '7%' }}></div>
-      <div class='titles'>Want to talk?</div>
+      <div class='titles' style={{paddingLeft: '30%'}}>Want to talk?</div>
       <Contact />
     </div>
   )
