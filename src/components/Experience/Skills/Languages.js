@@ -1,8 +1,9 @@
 import { FaCaretRight } from 'react-icons/fa';
 
-const Languages = () => {
+const Languages = ( {visible} ) => {
   return (
-  <div>
+  <div className={visible ? 'opacity' : 'opacity0'}>
+  <div className='exp-overlay'>
     <div style={{float: 'left', paddingRight: '50px'}} >
       <div className='exp-skill'>
         <FaCaretRight class='exp-skill-arrow' />Java</div>
@@ -35,7 +36,7 @@ const Languages = () => {
       <div className='exp-skill'>
         <FaCaretRight class='exp-skill-arrow' />Go</div>
     </div>
-
+  </div>
   </div>
   )
 }

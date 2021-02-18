@@ -66,15 +66,15 @@ const App = () => {
       <About />
 
       <div id='experience' style={{ paddingTop: '7%' }}></div>
-      <div class='titles' style={{paddingLeft: '32%'}}>Experience</div><div class='line'></div>
+      <div className='titles' style={{paddingLeft: '32%'}}>Experience</div><div className='line'></div>
       <Experience skills={skills} toggleHighlight={toggleHighlight} toggleOpen={toggleOpen} toggleClose={toggleClose} />
 
       <div id='work' style={{ paddingTop: '7%' }}></div>
-      <div class='titles' style={{paddingLeft: '22%'}}>Work</div>
+      <div className='titles' style={{paddingLeft: '22%'}}>Work</div>
       <Work />
 
       <div id='contact' style={{ paddingTop: '7%' }}></div>
-      <div class='titles' style={{paddingLeft: '30%'}}>Want to talk?</div>
+      <div className='titles' style={{ paddingLeft: '30%' }}>Contact Me</div>
       <Contact />
     </div>
   )

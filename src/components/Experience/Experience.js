@@ -3,7 +3,6 @@ import SkillList from './SkillList'
 
 const Experience = ( {skills, toggleHighlight, toggleOpen, toggleClose} ) => {
 
-
   return (
   <div>
     <div className='exp'>

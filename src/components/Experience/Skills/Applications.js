@@ -1,13 +1,14 @@
 import { FaCaretRight } from 'react-icons/fa';
 
-const Applications = () => {
+const Applications = ( {visible} ) => {
   return (
-    <div>
+  <div className={visible ? 'opacity' : 'opacity0'}>
+    <div className='exp-overlay'>
       <div style={{float: 'left', paddingRight: '50px'}} >
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Unity</div>
         <div className='exp-skill'>
-          <FaCaretRight class='exp-skill-arrow' />React.js</div>
+          <FaCaretRight class='exp-skill-arrow' />React</div>
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Outlook</div>
         <div className='exp-skill'>
@@ -24,6 +25,7 @@ const Applications = () => {
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Powerpoint</div>
       </div>
+    </div>
     </div>
   )
 }

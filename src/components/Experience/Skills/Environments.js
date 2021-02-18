@@ -1,8 +1,9 @@
 import { FaCaretRight } from 'react-icons/fa';
 
-const Environments = () => {
+const Environments = ( {visible} ) => {
   return (
-    <div>
+  <div className={visible ? 'opacity' : 'opacity0'}>
+    <div className='exp-overlay'>
       <div style={{float: 'left', paddingRight: '75px'}} >
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Github</div>
@@ -20,6 +21,7 @@ const Environments = () => {
         <div className='exp-skill'>
           <FaCaretRight class='exp-skill-arrow' />Eclipse</div>
       </div>
+    </div>
     </div>
   )
 }

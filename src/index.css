@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+.opacity0 {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.opacity {
+  opacity: 1;
+  transition: 0.3s;
+}
+
 /** Edit this for the header **/
 a:link, a:visited, a.active {
   font-family: 'Tahoma', sans-serif;
@@ -46,7 +56,7 @@ html {
   display: block;
   bottom: 2.5%;
   min-width: 100%;
-  position: fixed;
+  position: absolute;
   color: white;
   animation: bounce 0.9s infinite;
 }
@@ -265,6 +275,10 @@ html {
 .exp-skill-arrow {
   color: #ef5ae7;
   padding-top: 6px;
+}
+
+.exp-overlay {
+  position: absolute;
 }
 
 .exp-btn {
