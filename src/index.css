@@ -197,6 +197,40 @@ html {
   width: 100%;
 }
 
+.btn-contact {
+  display: inline-block;
+  transition: color 0.3s linear;
+  background: none;
+  color: #ef5ae7;
+  border: 1px solid #ef5ae7;
+  padding: 10px 20px;
+  margin: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Courier New', monospace;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  color: #ffe4f9;
+  border-color: white;
+}
+
+.btn-contact:focus {
+  outline: none;
+}
+
+.btn-contact:active {
+  transform: scale(0.98);
+}
+
+.btn-contact-block {
+  display: block;
+  width: 100%;
+}
+
 
 /** Home Page **/
 

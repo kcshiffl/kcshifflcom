@@ -2,7 +2,26 @@ import { FaGithub } from 'react-icons/fa'
 import { FaChevronDown } from 'react-icons/fa'
 import { FaYoutube } from 'react-icons/fa'
 
+
+function showYoutube(condition, youtubeLink) {
+  let youtube;
+  if (condition) {
+    youtube = <div></div>;
+  }
+  else {
+    youtube = (
+      <div>
+        <a href={youtubeLink} target="_blank">
+          <FaYoutube size={30}/>
+        </a>
+      </div>);
+  }
+  return youtube;
+}
+
 const ProjectRight = ( { title, image, description, technologies, github, youtube } ) => {
+
+
   return (
     <div className='project' style={{ marginLeft: '8%'}}>
 
@@ -14,14 +33,20 @@ const ProjectRight = ( { title, image, description, technologies, github, youtub
         <p className='project-header'>Technologies:</p>
         <p style={{color: '#A8B7BC', marginBottom: '2%'}}>{technologies}</p>
 
-        <a href={github} target="_blank"><div style={{color: 'white'}}><FaGithub size={20}/></div></a>
+        <div style={{display: 'flex'}}>
+          <a href={github} target="_blank"><div style={{color: 'white'}}><FaGithub size={30}/></div></a>
+          <div style={{marginLeft: '10px'}}></div>
+          <div style={ `${youtube}` === "" ? {opacity: '0'} : {color: 'white', opacity: '1'} }>
+              {showYoutube(`${youtube}` === "", `${youtube}`)}
+          </div>
+        </div>
 
       </div>
 
-      <div className='project-image'><figure className="tint">
-        <a href={github} target="_blank"><img src={image} className='project-image-round'/></a>
-      </figure></div>
-      
+      <div className='project-image'><a href={github} target="_blank"><figure className="tint">
+        <img src={image} className='project-image-round'/>
+      </figure></a></div>
+
     </div>
   )
 }

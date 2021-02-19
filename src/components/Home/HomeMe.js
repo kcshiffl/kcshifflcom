@@ -7,7 +7,7 @@ const HomeMe = () => {
       <p className='home-text'>
       I'm a recent George Mason University graduate with a BS in Computer Science
       and a Minor in Computer Game Design.</p>
-      <Button text='Contact Me' link='#contact' newTab='false'/>
+      <Button text='Contact Me' link='#contact' newTab='false' />
     </div>
   )
 }

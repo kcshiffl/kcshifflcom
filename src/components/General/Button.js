@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
 
-const Button = ({ text, link, newTab }) => {
-
+const Button = ({ text, link, newTab, scale }) => {
   return (
-    <a href={link} target={newTab=='true' ? '_blank' : '_self'}><button className='btn'>{text}</button></a>
+    <a href={link} target={newTab=='true' ? '_blank' : '_self'}><button className='btn' style={{transform: 'scale('+`${scale}`+')'}}>{text}</button></a>
   )
 }
 

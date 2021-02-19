@@ -8,7 +8,7 @@ const About = () => {
         </p>
         <br></br>
         <p>
-          I'm Kim Shifflett, a software engineer based in the Washington, DC area.
+          I'm Kim, a software engineer based in the Washington, DC area.
         </p>
         <br></br>
         <p>
@@ -23,7 +23,7 @@ const About = () => {
 
       <div>
         <img src={hello} />
-        <p style={{fontSize: '10px'}}>Yes this is pretty much what I look like.</p>
+        <p style={{fontSize: '10px'}} align='center'>A self-portrait.</p>
       </div>
     </div>
   )

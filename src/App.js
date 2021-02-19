@@ -5,8 +5,6 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Work from './components/Work/Work'
 import Contact from './components/Contact/Contact'
-import Tasks from './components/Tasks'
-import AddTask from './components/AddTask'
 import Arrow from './components/General/Arrow'
 import { FaChevronDown } from 'react-icons/fa'
 import { bounce } from 'react-animations';
@@ -91,7 +89,7 @@ const App = () => {
       <div id='contact' style={{ paddingTop: '7%' }}></div>
       <div className='titles' style={{ paddingLeft: '30%' }}>
         <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>04. &emsp;</p>
-        Contact Me
+        Contact
       </div>
       <Contact />
     </div>
