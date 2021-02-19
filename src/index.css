@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .opacity0 {
   opacity: 0;
   transition: 0.3s;
@@ -355,13 +360,14 @@ html {
 }
 
 /********* Work *********/
+
 .work {
   min-width: 100%;
   height: auto;
   padding-top: 3.5%;
   padding-bottom: 7%;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 20%;
   align-items: left;
 }
 
@@ -371,9 +377,99 @@ html {
 
 .project {
   width: 100%;
-  padding: 10px;
   height: auto;
+  margin-bottom: 17%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+.project-header {
+  color: #ef5ae7;
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+}
+
+.project-description-left {
+  padding-top: 5%;
+  display: block;
+  width: 100%;
+  font-family: 'Courier New', monospace;
+  text-align: right;
+  color: white;
+}
+
+.project-description-block-left {
+  background-color: #1e1d1e;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #A8B7BC;
+  min-width: 100%;
+  min-height: 50%;
+  padding: 5%;
+}
+
+.project-description-right {
+  padding-top: 5%;
+  display: block;
+  width: 100%;
+  font-family: 'Courier New', monospace;
+  text-align: left;
+  color: white;
+}
+
+.project-description-block-right {
+  background-color: #1e1d1e;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #A8B7BC;
+  min-width: 95%;
+  max-width: 95%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  min-height: 50%;
+  padding: 5%;
+}
+
+.project-image {
+  max-width: 45%;
+  min-width: 45%;
+}
+
+.project-image-round {
+  border-radius: 25px;
+}
+
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(70, 28, 88, 0.5);
+  transition: background .3s linear;
+  border-radius: 25px;
+}
+
+.tint:hover:before {
+  background: none;
+}
+
 
 
 /********* Contact *********/

@@ -23,7 +23,7 @@ const Languages = ( {visible} ) => {
       <div className='exp-skill'>
         <FaCaretRight class='exp-skill-arrow' />Haskell</div>
       <div className='exp-skill'>
-        <FaCaretRight class='exp-skill-arrow' />Lisp</div>
+        <FaCaretRight class='exp-skill-arrow' />CSS</div>
     </div>
 
     <div style={{float: 'left', paddingRight: '50px'}}>
