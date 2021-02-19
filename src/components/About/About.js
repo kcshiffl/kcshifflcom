@@ -17,12 +17,13 @@ const About = () => {
         </p>
         <br></br>
         <p>
-          Right now, I'm currently looking for an opportunity to work on meaningful projects with a motivated, creative team!
+          Right now, I'm currently looking for an opportunity to work on meaningful projects with a motivated, creative team.
         </p>
       </div>
 
       <div>
         <img src={hello} />
+        <p style={{fontSize: '10px'}}>Yes this is pretty much what I look like.</p>
       </div>
     </div>
   )
