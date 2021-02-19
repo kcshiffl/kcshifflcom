@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kcshifflcom/static/css/main.53875882.chunk.css",
-    "main.js": "/kcshifflcom/static/js/main.dbb8e3d4.chunk.js",
-    "main.js.map": "/kcshifflcom/static/js/main.dbb8e3d4.chunk.js.map",
-    "runtime-main.js": "/kcshifflcom/static/js/runtime-main.4f65504f.js",
-    "runtime-main.js.map": "/kcshifflcom/static/js/runtime-main.4f65504f.js.map",
-    "static/js/2.b3c3734f.chunk.js": "/kcshifflcom/static/js/2.b3c3734f.chunk.js",
-    "static/js/2.b3c3734f.chunk.js.map": "/kcshifflcom/static/js/2.b3c3734f.chunk.js.map",
-    "static/js/3.93381bfe.chunk.js": "/kcshifflcom/static/js/3.93381bfe.chunk.js",
-    "static/js/3.93381bfe.chunk.js.map": "/kcshifflcom/static/js/3.93381bfe.chunk.js.map",
+    "main.css": "/kcshifflcom/static/css/main.40106832.chunk.css",
+    "main.js": "/kcshifflcom/static/js/main.212cca74.chunk.js",
+    "main.js.map": "/kcshifflcom/static/js/main.212cca74.chunk.js.map",
+    "runtime-main.js": "/kcshifflcom/static/js/runtime-main.8493e5ac.js",
+    "runtime-main.js.map": "/kcshifflcom/static/js/runtime-main.8493e5ac.js.map",
+    "static/js/2.fe584a61.chunk.js": "/kcshifflcom/static/js/2.fe584a61.chunk.js",
+    "static/js/2.fe584a61.chunk.js.map": "/kcshifflcom/static/js/2.fe584a61.chunk.js.map",
+    "static/js/3.9f8146ad.chunk.js": "/kcshifflcom/static/js/3.9f8146ad.chunk.js",
+    "static/js/3.9f8146ad.chunk.js.map": "/kcshifflcom/static/js/3.9f8146ad.chunk.js.map",
     "index.html": "/kcshifflcom/index.html",
-    "static/css/main.53875882.chunk.css.map": "/kcshifflcom/static/css/main.53875882.chunk.css.map",
-    "static/js/2.b3c3734f.chunk.js.LICENSE.txt": "/kcshifflcom/static/js/2.b3c3734f.chunk.js.LICENSE.txt",
+    "static/css/main.40106832.chunk.css.map": "/kcshifflcom/static/css/main.40106832.chunk.css.map",
+    "static/js/2.fe584a61.chunk.js.LICENSE.txt": "/kcshifflcom/static/js/2.fe584a61.chunk.js.LICENSE.txt",
     "static/media/Djikstra_Project.8384e49f.gif": "/kcshifflcom/static/media/Djikstra_Project.8384e49f.gif",
     "static/media/KATTH_Project.89b87be4.gif": "/kcshifflcom/static/media/KATTH_Project.89b87be4.gif",
     "static/media/KShifflett_Resume.aa3f3831.pdf": "/kcshifflcom/static/media/KShifflett_Resume.aa3f3831.pdf",
@@ -21,9 +21,9 @@
     "static/media/movieRec_Project.4e70d9f7.png": "/kcshifflcom/static/media/movieRec_Project.4e70d9f7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f65504f.js",
-    "static/js/2.b3c3734f.chunk.js",
-    "static/css/main.53875882.chunk.css",
-    "static/js/main.dbb8e3d4.chunk.js"
+    "static/js/runtime-main.8493e5ac.js",
+    "static/js/2.fe584a61.chunk.js",
+    "static/css/main.40106832.chunk.css",
+    "static/js/main.212cca74.chunk.js"
   ]
 }
