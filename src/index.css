@@ -212,17 +212,18 @@ html {
 .title-card {
   /* border: 1px solid steelblue;*/
   /* background-color: #1e1c30; */
-  border-radius: 25%;
   flex: 1; /* additionally, equal width */
   padding: 1em;
   font-size: 30px;
   color: white;
+  border-radius: 50%;
   font-family: 'Courier New', monospace;
 }
 
 
 .logo-display {
   margin: 25% 25%;
+  max-width: 50%;
   border-radius: 50%;
 }
 
