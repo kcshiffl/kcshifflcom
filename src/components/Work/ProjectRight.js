@@ -21,8 +21,7 @@ const ProjectRight = ( { title, image, description, technologies, github, youtub
       <div className='project-image'><figure className="tint">
         <a href={github} target="_blank"><img src={image} className='project-image-round'/></a>
       </figure></div>
-
-
+      
     </div>
   )
 }

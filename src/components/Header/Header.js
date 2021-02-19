@@ -8,10 +8,10 @@ const Header = () => {
   return(
     <div>
       <header className='header'>
-        <HeaderLink link='#about' text='About' />
-        <HeaderLink link='#experience' text='Experience' />
-        <HeaderLink link='#work' text='Work' />
-        <HeaderLink link='#contact' text='Contact' />
+        <HeaderLink link='#about' text='About' num='01'/>
+        <HeaderLink link='#experience' text='Experience' num='02' />
+        <HeaderLink link='#projects' text='Projects' num='03'/>
+        <HeaderLink link='#contact' text='Contact' num='04' />
         <Button text='Resume' link={resume} newTab='true' />
       </header>
     </div>

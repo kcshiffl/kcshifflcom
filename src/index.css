@@ -198,10 +198,10 @@ html {
 }
 
 
-/** About Page **/
+/** Home Page **/
 
 
-.abt {
+.home {
   margin: 10% 15%;
   justify-content: center;
   display: flex;
@@ -226,7 +226,7 @@ html {
   border-radius: 50%;
 }
 
-.abt-greeting {
+.home-greeting {
   color: #dab4d2;
   text-align: left;
   flex: 1; /* additionally, equal width */
@@ -235,17 +235,41 @@ html {
   font-family: 'Courier New', monospace;
 }
 
-.abt-name {
+.home-name {
   color: #dab4d2;
   font-size: 25px;
   padding-bottom: 20px;
 }
 
-.abt-text {
+.home-text {
   color: white;
   font-size: 18px;
-
 }
+
+
+
+
+
+
+/******** About ******/
+.abt {
+  margin-left: 25%;
+  margin-top: 3.5%;
+  margin-bottom: 10%;
+  justify-content: left;
+  display: inline-block;
+  min-height: 100%;
+  max-width: 50%;
+
+  text-align: left;
+  display: flex;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: #A8B7BC;
+}
+
+
+
 
 /*** Experience ***/
 
@@ -258,7 +282,7 @@ html {
   display: flex;
   min-height: 100%;
   max-width: 50%;
-  /*border: 1px solid #dab3d2;*/
+  border: 1px solid #363236;
 }
 
 .exp-block {
@@ -365,7 +389,7 @@ html {
   min-width: 100%;
   height: auto;
   padding-top: 3.5%;
-  padding-bottom: 7%;
+  padding-bottom: 1%;
   padding-left: 15%;
   padding-right: 20%;
   align-items: left;

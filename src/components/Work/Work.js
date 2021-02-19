@@ -7,7 +7,7 @@ import katth from '../images/KATTH_Project.gif';
 
 
 const Work = () => {
-  const kcshifflcom_desc = "This website. Created using React, Javascript, CSS, HTML.";
+  const kcshifflcom_desc = "This website - the first and only website I've made. Created with React. Provided a learning experience for both front-end and back-end development with a heavy emphasis on Javascript and CSS.";
   const kcshifflcom_git = "https://github.com/kcshiffl/kcshifflcom.git";
   const kcshifflcom_technologies = "React, Javascript, CSS, HTML";
 

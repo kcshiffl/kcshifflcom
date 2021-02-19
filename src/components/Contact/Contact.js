@@ -4,7 +4,7 @@ import TextareaAutosize from 'react-textarea-autosize';
 const Contact = () => {
   return (
     <div className='contact'>
-      <p className='abt-text' style={{paddingBottom: '3%', paddingLeft: '5%', color: '#dab4d2'}} >Let's chit chat.</p>
+      <p className='abt-text' style={{paddingBottom: '3%', color: '#A8B7BC'}} >Let's chit chat.</p>
 
       <form>
         <div className='add-form'>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Header from './components/Header/Header'
+import Home from './components/Home/Home'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Work from './components/Work/Work'
@@ -62,19 +63,36 @@ const App = () => {
       <div class='email-overlay'>kcshiffl@gmail.com</div>
 
       <Header />
-      <div id='about'></div>
+      <div id='home'></div>
+      <Home />
+
+      <div id='about' style={{ paddingTop: '7%' }}></div>
+      <div className='titles' style={{paddingLeft: '25%'}}>
+        <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>01.&emsp;</p>
+        About Me
+      </div>
       <About />
 
+
       <div id='experience' style={{ paddingTop: '7%' }}></div>
-      <div className='titles' style={{paddingLeft: '32%'}}>Experience</div><div className='line'></div>
+      <div className='titles' style={{paddingLeft: '32%'}}>
+        <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>02.&emsp;</p>
+        Experience
+      </div>
       <Experience skills={skills} toggleHighlight={toggleHighlight} toggleOpen={toggleOpen} toggleClose={toggleClose} />
 
-      <div id='work' style={{ paddingTop: '7%' }}></div>
-      <div className='titles' style={{paddingLeft: '22%'}}>Work</div>
+      <div id='projects' style={{ paddingTop: '7%' }}></div>
+      <div className='titles' style={{paddingLeft: '22%'}}>
+        <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>03. &emsp;</p>
+        Projects
+      </div>
       <Work />
 
       <div id='contact' style={{ paddingTop: '7%' }}></div>
-      <div className='titles' style={{ paddingLeft: '30%' }}>Contact Me</div>
+      <div className='titles' style={{ paddingLeft: '30%' }}>
+        <p style={{display: 'inline-block', color: '#ef5ae7', fontSize: '20px'}}>04. &emsp;</p>
+        Contact Me
+      </div>
       <Contact />
     </div>
   )
